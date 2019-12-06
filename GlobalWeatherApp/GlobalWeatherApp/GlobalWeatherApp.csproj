@@ -8,7 +8,7 @@
     <PackageReference Include="jQuery" Version="3.4.1" />
     <PackageReference Include="jquery.datatables" Version="1.10.15" />
     <PackageReference Include="Knockout.Mapping" Version="2.4.0" />
-    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.6" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.9" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.3" />
   </ItemGroup>
 
