@@ -1,0 +1,75 @@
+﻿@{
+    ViewData["Title"] = "Weather";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+
+<button id="getWeatherDetails">Get Weather Details</button>
+<p id="City"></p>
+<p id="Humidity"></p>
+<p id="Temperature"></p>
+
+<script src="/lib/jquery/dist/jquery.js"></script>
+<script src="~/lib/jquery/dist/jquery-3.4.1.js"></script>
+<script src="http://knockoutjs.com/downloads/knockout-2.0.0.js"></script>
+<script src="http://knockoutjs.com/downloads/knockout.mapping-latest.js"></script>
+<script src="~/lib/jquery/dist/jquery.dataTables.js"></script>
+
+
+
+<table id="tblWeather" class="table table-bordered table-condensed table-hover table-striped" width="100%" cellspacing="0">
+    <thead>
+        <tr>
+
+            <th>City</th>
+            <th>Humidity</th>
+            <th>Temperature &deg; F</th>
+
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+  
+<script>
+    var weather = Object();
+
+    $(document).ready(function () {
+       
+
+        function GetWeatherDetails() {
+            $.ajax({
+                url: "/Home/GetWeather",
+                type: "GET",
+                contentType: "application/json; charset=utf-8",
+                data: "{}",
+                dataType: "json",
+                success: function (data) {
+                    //debugger
+                    //alert(data);
+                    //$('#tblWeather').empty();
+                    i = 0;
+                    $.each(data, function (index, item) {
+                        var row = "<tr>";
+                        if (i < data.length)
+                        {
+                            row += "<td>" + data[i].city + '</td> <td>' + data[i].humidity + ' </td> <td>' + data[i].temperature + "</td> </tr>";
+                            i = i + 1;
+                        }
+                        $('#tblWeather').append(row);
+                    });
+                   
+                    
+                },
+                error: function (result) {
+                    alert("Error");
+                }
+            });
+        }
+
+        $('#getWeatherDetails').click(function () {
+            GetWeatherDetails();
+        });
+
+    });
+</script>

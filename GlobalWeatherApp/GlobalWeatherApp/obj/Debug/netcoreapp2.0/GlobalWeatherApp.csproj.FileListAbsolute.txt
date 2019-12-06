@@ -1,0 +1,11 @@
+C:\Users\jtrivedi\source\repos\Prudential\GlobalWeatherApp\GlobalWeatherApp\bin\Debug\netcoreapp2.0\GlobalWeatherApp.deps.json
+C:\Users\jtrivedi\source\repos\Prudential\GlobalWeatherApp\GlobalWeatherApp\bin\Debug\netcoreapp2.0\GlobalWeatherApp.runtimeconfig.json
+C:\Users\jtrivedi\source\repos\Prudential\GlobalWeatherApp\GlobalWeatherApp\bin\Debug\netcoreapp2.0\GlobalWeatherApp.runtimeconfig.dev.json
+C:\Users\jtrivedi\source\repos\Prudential\GlobalWeatherApp\GlobalWeatherApp\bin\Debug\netcoreapp2.0\GlobalWeatherApp.dll
+C:\Users\jtrivedi\source\repos\Prudential\GlobalWeatherApp\GlobalWeatherApp\obj\Debug\netcoreapp2.0\GlobalWeatherApp.csprojResolveAssemblyReference.cache
+C:\Users\jtrivedi\source\repos\Prudential\GlobalWeatherApp\GlobalWeatherApp\obj\Debug\netcoreapp2.0\GlobalWeatherApp.csproj.CoreCompileInputs.cache
+C:\Users\jtrivedi\source\repos\Prudential\GlobalWeatherApp\GlobalWeatherApp\obj\Debug\netcoreapp2.0\GlobalWeatherApp.AssemblyInfoInputs.cache
+C:\Users\jtrivedi\source\repos\Prudential\GlobalWeatherApp\GlobalWeatherApp\obj\Debug\netcoreapp2.0\GlobalWeatherApp.AssemblyInfo.cs
+C:\Users\jtrivedi\source\repos\Prudential\GlobalWeatherApp\GlobalWeatherApp\bin\Debug\netcoreapp2.0\GlobalWeatherApp.pdb
+C:\Users\jtrivedi\source\repos\Prudential\GlobalWeatherApp\GlobalWeatherApp\obj\Debug\netcoreapp2.0\GlobalWeatherApp.dll
+C:\Users\jtrivedi\source\repos\Prudential\GlobalWeatherApp\GlobalWeatherApp\obj\Debug\netcoreapp2.0\GlobalWeatherApp.pdb
